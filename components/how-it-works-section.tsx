@@ -1,16 +1,23 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function HowItWorksSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted" id="how-it-works">
-      <div className="container px-4 md:px-6">
+    <section
+      className="w-full py-12 md:py-24 lg:py-32 bg-muted"
+      id="how-it-works"
+    >
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm">Technology</div>
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">How It Works</h2>
+            <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm">
+              Technology
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              How It Works
+            </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our innovative system uses wrist-mounted IMU sensors to detect and analyze bilateral movement patterns
-              during strength training.
+              Our innovative system uses wrist-mounted IMU sensors to detect and
+              analyze bilateral movement patterns during strength training.
             </p>
           </div>
         </div>
@@ -24,8 +31,10 @@ export default function HowItWorksSection() {
                 <div className="space-y-1">
                   <h3 className="text-xl font-medium">Sensor Attachment</h3>
                   <p className="text-muted-foreground">
-                    Secure the lightweight IMU sensors to both wrists using comfortable, adjustable straps. The sensors
-                    contain accelerometers, gyroscopes, and magnetometers to capture precise motion data.
+                    Secure the lightweight IMU sensors to both wrists using
+                    comfortable, adjustable straps. The sensors contain
+                    accelerometers, gyroscopes, and magnetometers to capture
+                    precise motion data.
                   </p>
                 </div>
               </li>
@@ -36,8 +45,10 @@ export default function HowItWorksSection() {
                 <div className="space-y-1">
                   <h3 className="text-xl font-medium">Data Collection</h3>
                   <p className="text-muted-foreground">
-                    As you perform strength training exercises, the sensors collect high-frequency motion data from both
-                    wrists, capturing the subtle differences in movement patterns between your left and right sides.
+                    As you perform strength training exercises, the sensors
+                    collect high-frequency motion data from both wrists,
+                    capturing the subtle differences in movement patterns
+                    between your left and right sides.
                   </p>
                 </div>
               </li>
@@ -48,8 +59,10 @@ export default function HowItWorksSection() {
                 <div className="space-y-1">
                   <h3 className="text-xl font-medium">Real-time Analysis</h3>
                   <p className="text-muted-foreground">
-                    Our proprietary algorithms process the sensor data in real-time, analyzing movement patterns,
-                    velocity, acceleration, and range of motion to identify bilateral imbalances.
+                    Our proprietary algorithms process the sensor data in
+                    real-time, analyzing movement patterns, velocity,
+                    acceleration, and range of motion to identify bilateral
+                    imbalances.
                   </p>
                 </div>
               </li>
@@ -60,8 +73,9 @@ export default function HowItWorksSection() {
                 <div className="space-y-1">
                   <h3 className="text-xl font-medium">Feedback & Guidance</h3>
                   <p className="text-muted-foreground">
-                    Receive immediate feedback through the mobile app, with visual and audio cues to help you correct
-                    imbalances during your workout, promoting more symmetrical movement patterns.
+                    Receive immediate feedback through the mobile app, with
+                    visual and audio cues to help you correct imbalances during
+                    your workout, promoting more symmetrical movement patterns.
                   </p>
                 </div>
               </li>
@@ -80,6 +94,5 @@ export default function HowItWorksSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
