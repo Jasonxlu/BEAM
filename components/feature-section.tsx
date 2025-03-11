@@ -1,19 +1,30 @@
-import { BarChart2, Brain, Dumbbell, Smartphone, Wand2 } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { BarChart2, Brain, Dumbbell, Smartphone, Wand2 } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function FeatureSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-background" id="features">
-      <div className="container px-4 md:px-6">
+    <section
+      className="w-full py-12 md:py-24 lg:py-32 bg-background"
+      id="features"
+    >
+      <div className="container px-4 mx-auto md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Features</div>
+            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+              Features
+            </div>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
               Advanced Technology for Better Training
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our system combines cutting-edge hardware with intelligent software to transform your strength training
-              experience.
+              Our system combines cutting-edge hardware with intelligent
+              software to transform your strength training experience.
             </p>
           </div>
         </div>
@@ -25,8 +36,9 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                High-precision IMU sensors capture detailed motion data from both wrists during exercise, detecting even
-                subtle imbalances in movement patterns.
+                High-precision IMU sensors capture detailed motion data from
+                both wrists during exercise, detecting even subtle imbalances in
+                movement patterns.
               </CardDescription>
             </CardContent>
           </Card>
@@ -37,8 +49,9 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                Advanced machine learning algorithms analyze movement patterns in real-time, identifying imbalances and
-                providing actionable feedback.
+                Advanced machine learning algorithms analyze movement patterns
+                in real-time, identifying imbalances and providing actionable
+                feedback.
               </CardDescription>
             </CardContent>
           </Card>
@@ -49,8 +62,9 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                Seamlessly connect with our mobile app to receive real-time feedback, track progress, and access
-                personalized training recommendations.
+                Seamlessly connect with our mobile app to receive real-time
+                feedback, track progress, and access personalized training
+                recommendations.
               </CardDescription>
             </CardContent>
           </Card>
@@ -61,8 +75,9 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                Detailed performance metrics and trend analysis help you understand your progress and identify areas for
-                improvement over time.
+                Detailed performance metrics and trend analysis help you
+                understand your progress and identify areas for improvement over
+                time.
               </CardDescription>
             </CardContent>
           </Card>
@@ -73,8 +88,8 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                Receive customized exercise recommendations and form corrections based on your unique movement patterns
-                and training goals.
+                Receive customized exercise recommendations and form corrections
+                based on your unique movement patterns and training goals.
               </CardDescription>
             </CardContent>
           </Card>
@@ -101,14 +116,13 @@ export default function FeatureSection() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sm text-muted-foreground">
-                Share your data with personal trainers or physical therapists to enhance remote coaching and
-                rehabilitation programs.
+                Share your data with personal trainers or physical therapists to
+                enhance remote coaching and rehabilitation programs.
               </CardDescription>
             </CardContent>
           </Card>
         </div>
       </div>
     </section>
-  )
+  );
 }
-
