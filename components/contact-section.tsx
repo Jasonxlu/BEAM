@@ -1,18 +1,25 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function ContactSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-background" id="contact">
+    <section
+      className="w-full py-12 md:py-24 lg:py-32 mx-auto max-w-7xl bg-background"
+      id="contact"
+    >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Contact</div>
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
+            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+              Contact
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              Get in Touch
+            </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Interested in learning more about our technology or exploring partnership opportunities? Reach out to our
-              team.
+              Interested in learning more about our technology or exploring
+              partnership opportunities? Reach out to our team.
             </p>
           </div>
         </div>
@@ -20,7 +27,8 @@ export default function ContactSection() {
           <div className="flex flex-col gap-2">
             <h3 className="text-xl font-bold">Contact Information</h3>
             <p className="text-muted-foreground">
-              We're here to answer your questions and discuss how our technology can benefit your training or research.
+              We're here to answer your questions and discuss how our technology
+              can benefit your training or research.
             </p>
             <div className="mt-4 grid gap-4">
               <div className="flex items-start gap-4">
@@ -42,7 +50,9 @@ export default function ContactSection() {
                 </div>
                 <div className="grid gap-1">
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-sm text-muted-foreground">
+                    +1 (555) 123-4567
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -65,7 +75,9 @@ export default function ContactSection() {
                 </div>
                 <div className="grid gap-1">
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-sm text-muted-foreground">info@balanceform.tech</p>
+                  <p className="text-sm text-muted-foreground">
+                    info@balanceform.tech
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -88,7 +100,9 @@ export default function ContactSection() {
                 </div>
                 <div className="grid gap-1">
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-sm text-muted-foreground">123 Innovation Drive, Boston, MA 02115</p>
+                  <p className="text-sm text-muted-foreground">
+                    123 Innovation Drive, Boston, MA 02115
+                  </p>
                 </div>
               </div>
             </div>
@@ -106,7 +120,10 @@ export default function ContactSection() {
                 <Input placeholder="Subject" />
               </div>
               <div className="grid gap-2">
-                <Textarea placeholder="Your message" className="min-h-[150px]" />
+                <Textarea
+                  placeholder="Your message"
+                  className="min-h-[150px]"
+                />
               </div>
               <Button type="submit" className="w-full">
                 Send Message
@@ -116,6 +133,5 @@ export default function ContactSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

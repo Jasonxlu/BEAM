@@ -1,10 +1,10 @@
-import Image from "next/image"
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted">
+    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 mx-auto max-w-7xl bg-gradient-to-b from-background to-muted">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
@@ -13,8 +13,9 @@ export default function HeroSection() {
                 Revolutionizing Strength Training with IMU Technology
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Detect and correct bilateral movement imbalance during free weight exercises with our wrist-mounted IMU
-                sensors and advanced analytics.
+                Detect and correct bilateral movement imbalance during free
+                weight exercises with our wrist-mounted IMU sensors and advanced
+                analytics.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -39,6 +40,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
