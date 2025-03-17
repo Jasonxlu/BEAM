@@ -82,11 +82,11 @@ export default function HowItWorksSection() {
             </ul>
           </div>
           <div className="mx-auto flex items-center justify-center">
-            <div className="relative h-[400px] w-[400px] lg:h-[500px] lg:w-[500px]">
+            <div className="relative h-[820px] w-[380px] lg:h-[820px] lg:w-[380px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/mhealth.gif"
                 alt="Diagram showing how the IMU sensors work"
-                className="object-cover rounded-lg shadow-xl"
+                className="object-contain rounded-lg shadow-xl"
                 fill
               />
             </div>

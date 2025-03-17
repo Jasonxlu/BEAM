@@ -71,7 +71,7 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Dumbbell className="h-5 w-5 text-primary" />
-                <span className="text-lg font-bold">BalanceForm</span>
+                <span className="text-lg font-bold">BEAM</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Revolutionizing strength training through advanced motion
@@ -192,7 +192,7 @@ export default function Home() {
           </div>
           <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-xs text-muted-foreground mb-4 md:mb-0">
-              © 2025 BalanceForm. All rights reserved.
+              © 2025 BEAM. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <Link

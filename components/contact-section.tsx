@@ -76,7 +76,7 @@ export default function ContactSection() {
                 <div className="grid gap-1">
                   <h4 className="font-semibold">Email</h4>
                   <p className="text-sm text-muted-foreground">
-                    info@balanceform.tech
+                    info@BEAM.tech
                   </p>
                 </div>
               </div>

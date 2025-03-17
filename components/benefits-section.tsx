@@ -25,7 +25,7 @@ export default function BenefitsSection() {
           <div className="mx-auto flex items-center justify-center order-2 lg:order-1">
             <div className="relative h-[400px] w-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/injury-prevention.jpg?height=400&width=400"
                 alt="Comparison of balanced vs. imbalanced movement patterns"
                 className="object-cover rounded-lg shadow-xl"
                 fill
