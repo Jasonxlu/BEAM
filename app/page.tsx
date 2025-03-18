@@ -49,9 +49,9 @@ export default function Home() {
             Contact
           </Link>
         </nav>
-        <Button size="sm" className="hidden md:flex">
+        {/* <Button size="sm" className="hidden md:flex">
           Request Demo
-        </Button>
+        </Button> */}
         <Button variant="outline" size="icon" className="md:hidden">
           <ChevronRight className="h-4 w-4" />
           <span className="sr-only">Menu</span>

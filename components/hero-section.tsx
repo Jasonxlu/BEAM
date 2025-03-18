@@ -23,7 +23,7 @@ export default function HeroSection() {
                 Learn More
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline">Watch Demo</Button>
+              {/* <Button variant="outline">Watch Demo</Button> */}
             </div>
           </div>
           <div className="flex items-center justify-center">
