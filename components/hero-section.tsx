@@ -19,11 +19,11 @@ export default function HeroSection() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              {/* TODO: Link to PDF of paper */}
               <Button className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                 Learn More
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              {/* <Button variant="outline">Watch Demo</Button> */}
             </div>
           </div>
           <div className="flex items-center justify-center">
